@@ -1,0 +1,14 @@
+{
+  "name": "natours-landing-page",
+  "version": "1.0.0",
+  "description": "Landing page for natours, an SG based travel agency.",
+  "main": "index.js",
+  "scripts": {
+   "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Sarath N",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
