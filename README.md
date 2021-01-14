@@ -8,7 +8,7 @@ I have started creating tiny projects on Codepen & added most of them to git. Th
 
 Here is the work showcasing my love for CSS. 
 
--- links will be added soon --
+[Demo](https://natours-advanced-css.netlify.app/)  
 
 Some things you can do to get better at CSS.
 
@@ -17,5 +17,3 @@ Some things you can do to get better at CSS.
 3. Learn to debug your code. 
 4. Read other people's code
 5. Practice, Practice & Practice
-# natours-home
-# natours-home
