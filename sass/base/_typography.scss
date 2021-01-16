@@ -5,7 +5,7 @@ body {
   font-weight: 400;
   font-size: $default-font-size;
   line-height: 1.7;
-  color: $color-grey-dark;
+  color: $color-grey-dark-1;
   padding: 3rem;
 }
 
@@ -40,10 +40,10 @@ body {
   font-size: 3.5rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
   display: inline-block;
-  background-clip: text;
+  background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
   -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
   letter-spacing: 2px;
   transition: all 0.3s ease;
