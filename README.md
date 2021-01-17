@@ -10,10 +10,15 @@ Here is the work showcasing my love for CSS.
 
 [Demo](https://natours-advanced-css.netlify.app/)  
 
-Some things you can do to get better at CSS.
+Following CSS Learnings are included as part of this page development.
 
-1. Learn CSS 
-2. Ditch the libraries initially. Later you have to pick up atleast one
-3. Learn to debug your code. 
-4. Read other people's code
-5. Practice, Practice & Practice
+1. Advanced CSS 
+2. BEM (Block Element Modifier)
+3. Transitions, Clip-path, Animations
+4. Color-gradients
+5. Background Images, 
+6. Background Videos 
+7. SaSS Variables, Mixins, Functions etc.
+8. Semantic Markup
+9. Font Icons
+10. Responsive Web Design and many more....
