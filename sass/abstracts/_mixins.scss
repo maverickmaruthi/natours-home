@@ -1,8 +1,8 @@
 @mixin clearfix {
-  &::after{
+  &::after {
     content: "";
     display: table;
-    clear:both;
+    clear: both;
   }
 }
 
@@ -11,4 +11,44 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+// Media Query Manager
+/* 
+* 0 - 600px - Phone
+* 600 - 900px - Tablet Portrait
+* 900 - 1200px - Tablet Landscape
+* 1200 - 1800px - Normal Styles apply
+* 1800px ++ - Big Desktop
+* $breakpoint argument choices:phone,tablet-portrait,tablet-landscape,big-desktop
+* media queries rem units are not effected by root font size & not the best for media queries.
+* use ems (1em -16px)
+* Order of media queries: Base, Typography, general layout, grid, page layout & finally components
+*/
+
+@mixin respond($breakpoint) {
+  @if ($breakpoint == phone) {
+    @media (max-width: 37.5em) {
+      //600px
+      @content;
+    }
+  }
+  @if ($breakpoint == tablet-portrait) {
+    //900px
+    @media (max-width: 56.25em) {
+      @content;
+    }
+  }
+  @if ($breakpoint == tablet-landscape) {
+    //1200px
+    @media (max-width: 75em) {
+      @content;
+    }
+  }
+  @if ($breakpoint == big-desktop) {
+    @media (min-width: 112.5em) {
+      //1800px
+      @content;
+    }
+  }
 }

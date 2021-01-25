@@ -8,6 +8,14 @@
   font-size: $default-font-size;
   transform: skewX(-12deg);
 
+  @include respond(tablet-portrait) { 
+    width: 100%;
+    padding: 4rem 4rem 4rem 7rem;
+  }
+  @include respond(phone) { 
+    transform: skewX(0);
+  }
+
   &__shape {
     width: 15rem;
     height: 15rem;
@@ -22,6 +30,9 @@
     ); // this is for shape & the other is for text
     transform: translateX(-3rem) skewX(14deg);
     position: relative;
+    @include respond(phone) { 
+      transform:  translateX(-3rem) skewX(0);
+    }
   }
 
   &__img {
@@ -33,6 +44,9 @@
 
   &__text {
     transform: skewX(12deg);
+    @include respond(phone) { 
+      transform: skewX(0);
+    }
   }
 
   &__caption {
