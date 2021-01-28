@@ -30,9 +30,11 @@
     ); // this is for shape & the other is for text
     transform: translateX(-3rem) skewX(14deg);
     position: relative;
+    
     @include respond(phone) { 
       transform:  translateX(-3rem) skewX(0);
     }
+
   }
 
   &__img {
