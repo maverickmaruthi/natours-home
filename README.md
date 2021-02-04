@@ -22,3 +22,4 @@ Following CSS Learnings are included as part of this page development.
 8. Semantic Markup
 9. Font Icons
 10. Responsive Web Design and many more....
+![Natours app screenshot](./img/natours.jpg)
